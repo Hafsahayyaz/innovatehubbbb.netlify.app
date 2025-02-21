@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Microsoft Clone</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="microsoft_logo.png" alt="Microsoft Logo">
+                
+            </div>
+            <div class="nav-links">
+                <a href="#">Microsoft 365</a>
+                <a href="#">Office</a>
+                <a href="#">Copilot</a>
+                <a href="#">Windows</a>
+                <a href="#">Support</a>
+            </div>
+            <div class="nav-icons">
+                <select>
+                    <option>All Microsoft</option>
+                </select>
+                <input type="text" placeholder="Search">
+                <button>🔍</button>
+                <button>🛒</button>
+                <button>👤</button>
+            </div>
+        </div>
+        </nav>
+        <nav>
+            <ul class="navbar">
+                
+                <li><a href="#">Software</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Office</a></li>
+                        <li><a href="#">Windows</a></li>
+                        <li><a href="#">Visual Studio</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Entertainment</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Xbox</a></li>
+                        <li><a href="#">Movies & TV</a></li>
+                        <li><a href="#">Music</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">PCs and Devices</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Desktops</a></li>
+                        <li><a href="#">Tablets</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Other</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </li>
+            
+            </ul>
+        </nav>
+        
+    </header> 
+
+    <main>
+        
+        <div class="container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="image1.jpg" alt="Image 1"></div>
+                    <div class="swiper-slide"><img src="image2.jpg" alt="Image 2"></div>
+                    <div class="swiper-slide"><img src="image3.jpg" alt="Image 3"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div> <!-- Corrected closing div tag -->
+
+    </main> <!-- Added closing tag for main -->
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+ <!-- Added closing tags for footer -->
+
+
+ <div class="boxes-container">
+    <div class="box">
+        <img src="box-image1.jpg" alt="Box Image 1">
+        <h3>Designed for life today – and tomorrow </h3>
+        <p>The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love</p>
+        <button>See if your PC is ready</button>
+    </div>
+    <div class="box">
+        <img src="box-image2.jpg" alt="Box Image 2">
+        <h3>Microsoft Edge </h3>
+        <p>World-class performance with more privacy, more productivity and more value while you browse. </p>
+        <button>Download Now</button>
+    </div>
+    <div class="box">
+        <img src="box-image3.jpg" alt="Box Image 3">
+        <h3>Microsoft OneDrive</h3>
+        <p>World-class performance with more privacy, more productivity and more value while you browse. </p>
+        <button>Learn More</button>
+    </div>
+    <div class="box">
+        <img src="box-image4.jpg" alt="Box Image 4">
+        <h3>Outlook for iOS and Android </h3>
+        <p>Connect. Organise. Get things done. </p>
+        <button>Download Now</button>
+    </div>
+</div>
+</main>
+
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="text">
+                <h2>Organise your life</h2>
+                <p>Keep your ideas and notes organised with OneNote.</p>
+                <a href="#" class="button">Learn more</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</head>
+<body>
+    <div class="container1">
+        <h2>FOR BUSINESS</h2>
+        <div class="card-grid">
+            <div class="card">
+                <img src="Microsoft 365 Copilot.jpg" alt="Microsoft 365 Copilot">
+                <h3>Microsoft 365 Copilot</h3>
+                <p1>Save time and focus on the things that matter most with AI in Microsoft 365 for business.</p1>
+                <a href="#" class="button1">Learn more</a>
+            </div>
+            <div class="card">
+                <img src="Microsoft Teams.jpg" alt="Microsoft Teams">
+                <h3>Get Microsoft Teams for your business</h3>
+                <p1>Online meetings, chat, real-time collaboration, and shared cloud storage – all in one place.</p1>
+                <a href="#" class="button1">Find the right plan for your business</a>
+            </div>
+            <div class="card">
+                <img src="Windows 365.jpg" alt="Windows 365">
+                <h3>Welcome to your Windows 365 Cloud PC</h3>
+                <p1>Securely stream your Windows experience from the Microsoft cloud to any device.</p1>
+                <a href="#" class="button1">Get it today</a>
+            </div>
+            <div class="card">
+                <img src="Visual Studio 2022.jpg" alt="Visual Studio 2022">
+                <h3>Visual Studio 2022</h3>
+                <p1>Get the most comprehensive IDE for .NET and C++ developers on Windows for building web, cloud, desktop, mobile apps, services, and games.</p1>
+                <a href="#" class="button1">Download Visual Studio 2022</a>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+            <div class="social-icons">
+                 <a href="#"><img src="fb.png" alt="Facebook"></a>
+                 <a href="#"><img src="tw.png" alt="Twitter"></a>
+                 <a href="#"><img src="ig.png" alt="Instagram"></a>
+             
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
